@@ -1,0 +1,328 @@
+*{
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:#dbead5;
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+    padding-right: 80px;
+    padding-left: 24px;
+    padding-bottom: 16px;
+    justify-content: space-between;  
+    margin-right: 0;
+}
+
+header nav a{
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+nav{
+
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline-block;
+   
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.service{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+
+
+#q{
+    border: 1px solid #007b80;
+    padding-left: 15em;
+    padding-right: 15em;
+    border-radius: 1em;
+}
+
+#q h3 { padding-bottom: 19px;
+}
+
+#q h1{
+    padding-bottom: 46px;
+    margin-top: 1em;
+   
+}
+
+#q p{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+#q a button{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size:1em;
+    width: 170px;
+    height: 70px;
+   
+}
+
+#quadro{
+    display: flex;
+    justify-content: space-around;  
+}
+
+.q1, .q2, .q3{
+    text-align: center;
+    padding: 20px;
+    margin: 64px;
+    border-radius: 5px;
+    width: 300px;
+    background-color: #00d1d2;
+    text-decoration: none;   
+}
+
+.who{
+   
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;   
+}
+
+.who h2{
+    font-weight: 600;
+    color: #084808;
+    margin-bottom: 32px;
+}
+
+.bcar{
+    border:1px solid;
+    border-radius: 1em;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 5px;
+    
+    
+
+}
+
+
+.whoweare{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 32px;
+    margin-right: 32px;
+    text-align: justify;
+    margin-bottom: 32px;
+}
+
+.whoweare p{
+    color: #084808;
+    line-height:20px;
+}
+
+button{
+    background-color: #00d1d2;
+    border-radius: 5px;
+    border: none;
+    width: 90px;
+    height:30px;
+    
+   
+}
+
+.say{
+    text-align: center;
+    justify-content: center;
+    padding: 85px;
+    padding-top: 64px;
+}
+
+.contacto img{
+    width: 25px;
+    margin: 15px;
+
+}
+
+
+ 
+.imgfooter{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+
+    
+}
+.powerment{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+  
+}
+
+footer{
+    background-color: #FFE4E1;
+    font-weight: bold;
+}
+
+
+@media (max-width:980px){
+    header{
+        background-color:#dbead5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 16px 24px;
+    
+    }      
+    
+    header nav a{
+        text-decoration: none;
+        font-size: 1.9em;
+        padding: 0;
+    
+    }
+
+    .mobilenone{
+        display: none;
+    }
+   
+   header img{
+    align-items: center;
+    width: 100%;
+   
+   }
+   
+   #q a button{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size:1.5em;
+    width: 170px;
+    height: 70px;
+   
+}
+    
+    nav ul{
+        list-style: none;
+    
+      
+    }
+    
+    nav ul li{
+        display: inline-block;
+       
+    }
+
+    .welcome{
+        font-size: xx-large;
+
+    }
+    
+   
+    #q{
+        border: 1px solid #007b80;
+        border-radius: 1em;
+        padding:5px 60px 5px 60px;
+    }
+
+    #q p{
+        padding-bottom: 2em;
+        font-size: 150%; 
+        margin-top:2em;
+        padding-top: 64px;
+    
+    }
+
+    #q h1{
+         padding-top:2em ;
+         padding-bottom: 3em;
+         font-size: xx-large;
+       
+    }
+
+    #q h3{
+        font-size:1.7em;
+    }
+
+    #quadro{
+        display: flex;
+        justify-content: center;  
+    }
+
+    .q1, .q2, .q3{
+        text-align: center;
+        padding: 32px;
+        margin: 15px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        margin-top: 64px;
+        margin-bottom: 64px;
+        border-radius: 1em;
+        background-color: #00d1d2;
+        text-decoration: none;   
+    }
+
+    .q1, .q2, .q3 h3{
+        font-size: 20px;
+    }
+
+    .bcar{
+        border:1px solid;
+        border-radius: 1em;
+        margin:4em;
+
+    }
+    
+    .whoweare p{
+        font-size: 2em;
+        line-height: 1.5em;
+    }
+
+    .mediacontato{
+        padding-bottom: 2em;
+    }
+    
+    .mediacontato strong{
+        font-size: 2em;
+
+    }
+    .contacto img{
+       width: 60px;
+    }
+
+    .imgfooter{
+        display: none;
+       
+    }
+
+
+
+    .powerment{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2em;
+
+       
+    }
+
+    
+}
